@@ -4,7 +4,7 @@ This is third part of the shadowing app
 # !!! IMPORTANT !!!
 
 Before runing this app, the hedera local node and smart hedera shadowing smart contract comparison must be running.
-[Hedera Shadowing Smart Contract Comparison] (https://github.com/Kamil-chmielewski-ariane/hedera-shadowing-smart-contract-comparison)
+[Hedera Shadowing Smart Contract Comparison](https://github.com/Kamil-chmielewski-ariane/hedera-shadowing-smart-contract-comparison)
 
 # USAGE
 
