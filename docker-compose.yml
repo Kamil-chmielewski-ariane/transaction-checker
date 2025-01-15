@@ -1,0 +1,23 @@
+services:
+  transaction_checker:
+    build:
+      context: .
+      args:
+        LOG_FILE_PATH: ${LOG_FILE_PATH}
+    container_name: transaction_checker
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env
+    volumes:
+      - ./logs:${LOG_FILE_PATH}
+    restart: unless-stopped
+    networks:
+      - hedera-mirror-node
+      - hedera-network-node
+
+networks:
+  hedera-mirror-node:
+    external: true
+  hedera-network-node:
+    external: true
