@@ -1,5 +1,8 @@
-## Transaction checker
+### Transaction checker
 This is third part of the shadowing app
+
+This app is an API implemented by our team that we use to send transaction information for asynchronous check for the transaction status that we are pushing to 
+Hedera consensus node via transfer transaction or EthereumTransaction method. Also after the check is completed in there a response is send to our other application (hedera-shadowing-smart-contract-comparison) to check smart contract states between Hedera and Sepolia.
 
 # !!! IMPORTANT !!!
 
